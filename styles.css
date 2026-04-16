@@ -60,6 +60,9 @@
     width: 100%;
     position: relative;
 }
+.section1 >h2{
+padding-top: 50px;
+}
 .section2 {
     display: grid;
     grid-template-columns: repeat(1, 3fr);
@@ -96,6 +99,15 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
+    padding: 200px;
+
+}
+.section3 >h1{
+    text-align: center;
+    width: 600px;
+}
+.section3 > p{
+  font-weight: bold;
 }
 .bot-border {
     position: relative;
@@ -128,7 +140,7 @@ button {
 }
 .carousel{
   margin: 40px;
-
+  padding-top:40px ;
 }
 
 
@@ -142,9 +154,10 @@ button {
   width: 90%;
 }
 
-footer{
+.footer-img{
   display: flex;
   margin:50px;
+  width: 90%;
   justify-content: center;
   align-items: center;
 }
